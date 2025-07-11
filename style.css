@@ -1,0 +1,53 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero {
+  background-image: url("images/Hero-bg.png"); 
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.4); 
+  min-height: 100vh;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color:blue;
+}
+
+.signup-btn {
+  padding: 10px 20px;
+  background-color: #5c4efc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #4537c6;
+}
+
