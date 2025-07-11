@@ -1,53 +1,112 @@
 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 
-.hero {
-  background-image: url("images/Hero-bg.png"); 
-  background-size: cover;
-  background-position: right center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  color: white;
-  position: relative;
-}
-.overlay {
-  background: rgba(0, 0, 0, 0.4); 
-  min-height: 100vh;
-  padding: 30px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+    .hero {
+        background-image: url("images/Hero-bg.png");
+        background-size: cover;
+        background-position: right center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        color: white;
+        position: relative;
+    }
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.4);
+        min-height: 100vh;
+        padding: 30px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.logo {
-  font-size: 28px;
-  font-weight: 800;
-  color:blue;
-}
+    .logo {
+        font-size: 28px;
+        font-weight: 800;
+        color: blue;
+    }
 
-.signup-btn {
-  padding: 10px 20px;
-  background-color: #5c4efc;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
+    .signup-btn {
+        padding: 10px 20px;
+        background-color: #5c4efc;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
 
-.signup-btn:hover {
-  background-color: #4537c6;
-}
+    .signup-btn:hover {
+        background-color: #4537c6;
+    }
 
+    .banner {
+        text-align: center;
+        margin-top: 150px;
+    }
+
+    .banner h1 {
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .banner-btn {
+        padding: 12px 30px;
+        background-color: #5c4efc;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .banner-btn:hover {
+        background-color: #4537c6;
+    }
+
+    .banner {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: black;
+
+    }
+
+    .banner h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .focus-btn {
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .focus-btn:hover {
+        background-color: blue;
+        color: white;
+    }
