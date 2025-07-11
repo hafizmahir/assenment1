@@ -54,7 +54,11 @@
 
     .banner {
         text-align: center;
-        margin-top: 150px;
+        margin:0px 267.5px 162px 167.5px;
+        font-weight: bold;
+        font-size:65px;
+        padding:50px;
+       
     }
 
     .banner h1 {
@@ -119,8 +123,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 40px;
         flex-wrap: wrap;
+        padding:140px;
     }
 
     .action-left {
@@ -325,10 +329,15 @@
         flex-wrap: wrap;
         gap: 40px;
         align-items: flex-start;
+        padding : 0px 150px 0px 150px;
     }
 
     .contact-left {
         flex: 1;
+        font-size:40px;
+        font-weight: bold;
+        text-align: left;
+        padding:50px;
     }
 
     .contact-left h2 {
@@ -430,8 +439,8 @@
     .launch-btn:hover,
     .submit-btn:hover {
         transform: scale(1.05);
-        background-color: #4537c6;
-        color: white;
+        background-color: #c6b837;
+        color: rgb(255, 255, 255);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     }
 
