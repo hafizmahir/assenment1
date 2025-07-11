@@ -218,3 +218,225 @@
         margin-bottom: 40px;
         color: #1e1e1e;
     }
+
+    .user-stats {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .stat-box {
+        background-color: white;
+        padding: 30px 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        flex: 1 1 250px;
+        max-width: 300px;
+        min-width: 200px;
+    }
+
+    .user-stats.simple-stats h3.highlight {
+        font-size: 42px;
+        font-weight: 800;
+        color: #5c4efc;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .user-stats.simple-stats p {
+        font-size: 14px;
+        color: #777;
+        margin: 0;
+    }
+
+    .stat-box p {
+        font-size: 16px;
+        color: #777;
+    }
+
+    .feedback {
+        background-color: #f9f9ff;
+        padding: 80px 0;
+        text-align: center;
+
+    }
+
+    .feedback h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+
+    .feedback-grid {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .feedback-card {
+        background-color: #ffffff;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        max-width: 300px;
+        text-align: left;
+    }
+
+    .stars {
+        color: gold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .feedback-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: #1e1e1e;
+    }
+
+    .feedback-card p {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .reviewer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .reviewer img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .contact {
+        padding: 120px 0 80px 0;
+        background-color: #f9f9f9;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .contact-left {
+        flex: 1;
+    }
+
+    .contact-left h2 {
+        font-size: 32px;
+        color: #1e1e1e;
+    }
+
+    .contact-right {
+        flex: 2;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    form input,
+    form textarea {
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        width: fit-content;
+        padding: 10px 25px;
+        background-color: #5c4efc;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .submit-btn:hover {
+        background-color: #4537c6;
+    }
+
+    .footer {
+        background-color: #fff;
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .footer-logo {
+        font-size: 48px;
+        color: #5c4efc;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .footer-subtitle {
+        font-size: 16px;
+        color: #888;
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+        line-height: 1.6;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #5c4efc;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+
+    button,
+    .signup-btn,
+    .banner-btn,
+    .launch-btn,
+    .submit-btn {
+        transition: all 0.3s ease;
+    }
+
+    button:hover,
+    .signup-btn:hover,
+    .banner-btn:hover,
+    .launch-btn:hover,
+    .submit-btn:hover {
+        transform: scale(1.05);
+        background-color: #4537c6;
+        color: white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
